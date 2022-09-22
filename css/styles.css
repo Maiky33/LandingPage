@@ -352,11 +352,26 @@
 
 }
 
-@media screen and (max-width:544px) {
+@media screen and (max-width:419px) {
     .containerNewsLatters {
-        width:300px;
+        width: 300px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    } 
+}
+
+@media screen and (max-width:467px){
+    .imageAbout {
+        width: 350px;
     }
-    
+}
+
+@media screen and (max-width:422px) {
+    .imageAbout {
+        width: 300px;
+    }
 }
 
 .inputFotter {
