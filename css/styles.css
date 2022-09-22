@@ -60,7 +60,6 @@
 
     .containerImg{
         margin: 40px 40px 0px 40px;
-
     }
 
 }
@@ -305,7 +304,7 @@
 
 
 
-
+/*
 /*setion3*/
 .section3{
     background:#07122e;
@@ -316,7 +315,6 @@
 }
 
 .containerNewsLatters{  
-    width: 1000px;
     height: 200px;
     padding: 0px 20px;
     background: #122759;
@@ -331,7 +329,6 @@
 
 @media screen and (max-width:1042px) {
     .containerNewsLatters{
-        width: 500px;
         height: 400px;
         display: flex;
         flex-direction: column;
@@ -355,23 +352,25 @@
 
 }
 
+@media screen and (max-width:544px) {
+    .containerNewsLatters {
+        width:300px;
+    }
+    
+}
 
 .inputFotter {
-    width: 350px;
+    width: 250px;
     height: 30px;
     border-style: none;
     border-radius: 15px;
-    outline: none; /*outline Quita el borde al activar el input*/
+    outline: none; 
     background:#273b69;
     color: #ffffff;
     font-size: 20px;
     padding: 30px;
 }
-@media screen and (max-width:414px) {
-    .inputFotter{
-        width: 300px;
-    }
-}
+
 
 .inputBrowawMore{
     width: 150px;
@@ -386,10 +385,10 @@
     cursor: pointer;
 }
 
-.containerInfoFotter{   
-    width: 1000px;
+.containerInfoFotter{
     display: flex;
     justify-content: space-between;
+    gap: 100px;
     margin-bottom: 60px;
 }
 
